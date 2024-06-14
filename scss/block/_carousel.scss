@@ -1,0 +1,9 @@
+.carousel{
+    margin-top: 160px;
+    img{
+        width: 500px;
+    }
+    @media (max-width:1020px){
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,65 @@
+.message{
+    width: 100%;
+    margin-top: 50px;
+    background: $bg-py;
+    padding-bottom: 60px;
+    &__wrapper{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        
+        .msg__desc{
+            h2{
+                color: #fff;
+            }
+            .inp{
+                margin-top: 30px;
+                width: 50%;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 10px;
+                input{
+                    width: 200px;
+                    height: 48px;
+                    border-radius: 10px;
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+        .msg{
+            margin-top: 20px;
+            height: 200px;
+            width: 510px;
+            background: #fff;
+            border-radius: 10px;
+            input{
+                margin-top: 10px;
+                outline: none;
+                border: none;
+            }
+        }
+        button{
+            margin-top: 20px;
+            border: none;
+            border-radius: 10px;
+            background: #fff;
+            width:510px;
+            height: 50px;
+            font-weight: 500;
+            color: $bg-py;
+            font-size: 18px;
+            transition: .5s;
+            &:hover{
+                background: linear-gradient(rgb(0, 128, 128),  pink, );
+                color: #fff;
+            }
+        }
+    }
+    .msg__img{
+        margin-top: 90px;
+        img{
+            width: 100%;
+        }
+    }
+}
