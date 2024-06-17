@@ -456,29 +456,12 @@ function toggleShow (){
         let result = 1
         if ( n > 0 ) {
             for (let i = 1.1; i < n; i += 0.1) {
-                result `result * i`            
+                result * i            
             }
         } else {
             return "n soni 0 dan katta bo'lishi kerak"
         }
-        return "Javob: ${result}"
+        return `Javob:${result} `
     }
-    // console.log( number (6) );
-}
-
-{
-    // for13
-    function number( n ) {
-        let result = 0
-        if ( n > 0 ) {
-            for (let i = 1.1; i < n; i += 0.1) {
-                result = result + i            
-            }
-        } else {
-            return `n soni 0 dan katta bo'lishi kerak`
-        }
-        console.log( result );
-    }
-    
-    console.log( number ( 7 ) );
+    console.log( number (8) );
 }
