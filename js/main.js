@@ -449,19 +449,3 @@ function toggleShow (){
     
     // console.log( number(4) );
 }
-
-{
-    // for12
-    function number(n) {
-        let result = 1
-        if ( n > 0 ) {
-            for (let i = 1.1; i < n; i += 0.1) {
-                result * i            
-            }
-        } else {
-            return "n soni 0 dan katta bo'lishi kerak"
-        }
-        return `Javob:${result} `
-    }
-    console.log( number (8) );
-}
