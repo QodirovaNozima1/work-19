@@ -339,7 +339,7 @@ function toggleShow (){
 {
     // for4   
         for (let i = 1; i <= 10; i++) {
-            console.log(prise * i);        
+            console.log(`prise * i`);        
         }
     
     // console.log( chocolate(100 ) );
